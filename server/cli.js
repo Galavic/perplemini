@@ -14,13 +14,13 @@ export const CLI_PROVIDERS = {
 const cache = new Map();
 const keyFor = (id, suffix) => `CLI_${id.toUpperCase()}_${suffix}`;
 
-async function executable(file) {
-  try { return (await stat(file)).isFile() && (await access(file, process.platform === 'win32' ? constants.F_OK : constants.X_OK), true); } catch { return false; }
+async function executable(file, nodeScript = false) {
+  try { return (await stat(file)).isFile() && (await access(file, process.platform === 'win32' ? constants.F_OK : nodeScript ? constants.R_OK : constants.X_OK), true); } catch { return false; }
 }
 
 // Resolve npm wrappers to their actual executable without passing prompts through cmd.exe.
 async function resolveFile(file, id) {
-  if (!await executable(file)) return null;
+  if (!await executable(file, /\.(mjs|cjs|js)$/i.test(file))) return null;
   if (/\.(cmd|ps1|bat)$/i.test(file)) {
     const modules = path.join(path.dirname(file), 'node_modules');
     const targets = {
@@ -28,7 +28,7 @@ async function resolveFile(file, id) {
       claude: [path.join(modules, '@anthropic-ai/claude-code/cli.js')],
       opencode: [path.join(modules, '@opencode/cli/bin/opencode.exe'), path.join(modules, 'opencode-ai/bin/opencode')],
     };
-    for (const target of targets[id]) if (await executable(target)) return { command: /\.exe$/i.test(target) ? target : process.execPath, prefix: /\.exe$/i.test(target) ? [] : [target] };
+    for (const target of targets[id]) if (await executable(target, !/\.exe$/i.test(target))) return { command: /\.exe$/i.test(target) ? target : process.execPath, prefix: /\.exe$/i.test(target) ? [] : [target] };
     return null;
   }
   if (/\.(mjs|cjs|js)$/i.test(file)) return { command: process.execPath, prefix: [file] };
