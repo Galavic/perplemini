@@ -1,0 +1,21 @@
+.os-theme-perplemini {
+  --os-size: 9px;
+  --os-padding-perpendicular: 2px;
+  --os-padding-axis: 6px;
+  --os-track-border-radius: 99px;
+  --os-track-bg: transparent;
+  --os-track-bg-hover: transparent;
+  --os-track-bg-active: transparent;
+  --os-handle-border-radius: 99px;
+  --os-handle-bg: #7b848766;
+  --os-handle-bg-hover: #697378aa;
+  --os-handle-bg-active: #59636bd9;
+  --os-handle-min-size: 36px;
+  --os-handle-interactive-area-offset: 3px;
+}
+[data-theme=dark] .os-theme-perplemini,
+.sidebar .os-theme-perplemini {
+  --os-handle-bg: #a1a9af55;
+  --os-handle-bg-hover: #b3bac080;
+  --os-handle-bg-active: #c1c7ccaa;
+}

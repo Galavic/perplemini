@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      HOST: 0.0.0.0
+      CLI_PROVIDER: codex
+    init: true
+    volumes:
+      - codex-auth:/home/node/.codex
+      - claude-auth:/home/node/.claude
+      - opencode-data:/home/node/.local/share/opencode
+      - opencode-config:/home/node/.config/opencode
+    restart: unless-stopped
+
+volumes:
+  codex-auth:
+  claude-auth:
+  opencode-data:
+  opencode-config:

@@ -1,0 +1,229 @@
+{
+  "collection": "Central Icons",
+  "variant": "round-outlined-radius-2-stroke-1.5",
+  "source": "Devin Desktop 3.10.67, resources/app/out/vs/workbench/windsurf-chat-client/index.js",
+  "source_sha256": "8b0f6cd5361b1f5494749f6a457ab33b30f31374c7a7ae3388e637a98d7a18cc",
+  "imported_from": "ClyraADE/crates/ui/assets/central-icons",
+  "icons": [
+    {
+      "constant": "ALT_ARROW_DOWN",
+      "path": "alt-arrow-down",
+      "glyph": "IconChevronDownMedium",
+      "sha256": "a52441370bc4e20f381559e1f3d43759d2f4cd1ff36b07810659fd0fb6ab1312"
+    },
+    {
+      "constant": "ARROW_DOWN",
+      "path": "arrow-down",
+      "glyph": "IconArrowDown",
+      "sha256": "673400a395e00b44127f466bb0265a3bc05372e517f6966824606975a019733b"
+    },
+    {
+      "constant": "ARROW_LEFT",
+      "path": "arrow-left",
+      "glyph": "IconArrowLeft",
+      "sha256": "8c65ff8d5dc20ec9952a57edb88f40eef0dffdafb4deffc54ef80256d181ab40"
+    },
+    {
+      "constant": "ARROW_UP",
+      "path": "arrow-up",
+      "glyph": "IconArrowUp",
+      "sha256": "393259fad567a7c50df3eaf6eb52d0644f940040db1e55c64741d64c260eefd7"
+    },
+    {
+      "constant": "ARROW_UP_RIGHT",
+      "path": "arrow-up-right",
+      "glyph": "IconArrowUpRight",
+      "sha256": "3575982f6f90e4fe87029be3574963b286e1d45cce302faf0c84caae7cee39af"
+    },
+    {
+      "constant": "CHAT_ROUND_LINE",
+      "path": "chat-round-line",
+      "glyph": "IconBubbleWide",
+      "sha256": "f014055a99df6d29931da28272ff3b7b61b9898be0b7b6c518e183ebda6fdb8b"
+    },
+    {
+      "constant": "CHECK",
+      "path": "check",
+      "glyph": "IconCheckmark1",
+      "sha256": "ca58f06a6b162b40c14219b7fb1bf485f44945540e608fab6470f18acb647b02"
+    },
+    {
+      "constant": "CLOSE",
+      "path": "close",
+      "glyph": "IconCrossMedium",
+      "sha256": "ba536f2a4980cd3624e82426ffaf874cc6b6af3c4e763dfc68b1539707f95ed2"
+    },
+    {
+      "constant": "COPY",
+      "path": "copy",
+      "glyph": "IconSquareBehindSquare1",
+      "sha256": "922a2e847a12c6716b362f6c74fe31f3d81027497243bfbaa544ba5086090fb6"
+    },
+    {
+      "constant": "DOCUMENT",
+      "path": "document",
+      "glyph": "IconPageText",
+      "sha256": "14a016afb98cb47b3f8aff0b67cba73a02b69877cc8be44c973ad37eb6812a8e"
+    },
+    {
+      "constant": "FAST_TIER",
+      "path": "fast-tier",
+      "glyph": "IconLightning",
+      "sha256": "b5e54fab542025d76b4b4c7522d3ed8ecf7de654b06688f1751ece82226daa57"
+    },
+    {
+      "constant": "FILE_CODE",
+      "path": "file-code",
+      "glyph": "IconCode",
+      "sha256": "550c5b603ac4c97582f9d90eff468097375de408a6021dbb45ddec8475fda76d"
+    },
+    {
+      "constant": "FOLDER",
+      "path": "folder",
+      "glyph": "IconFolder1",
+      "sha256": "086a1962f45960d0c90ffb08200412b16b69aa7b5a8e8ded8129c165d5c834d3"
+    },
+    {
+      "constant": "FOLDER_WITH_FILES",
+      "path": "folder-with-files",
+      "glyph": "IconFolderPaper",
+      "sha256": "924f0e58afdad5bf3f7a563258d817f87d1b2f7a328991a721b35bd56bd5959a"
+    },
+    {
+      "constant": "GLOBAL",
+      "path": "global",
+      "glyph": "IconGlobe2",
+      "sha256": "beab6b59f5015f3adc704fb02162297e2f501a0c509bc5715b23f2c65bcc3c13"
+    },
+    {
+      "constant": "GLOBE",
+      "path": "globe",
+      "glyph": "IconGlobe",
+      "sha256": "1b5347ff27ca71db6ded381140e4ebded5920fc8a3b30a6b28795973a781bffb"
+    },
+    {
+      "constant": "MAGIC_STICK_3",
+      "path": "magic-stick-3",
+      "glyph": "IconMagicWand2",
+      "sha256": "7bae7d7b1f06bd51f8493a2e74cbffa078cc20766a492f8e2841690aa2ca2252"
+    },
+    {
+      "constant": "MAGNIFER",
+      "path": "magnifer",
+      "glyph": "IconMagnifyingGlass",
+      "sha256": "aac9f2d02ae0ea25a031f875623526cef75760dae533104d48bfbe06dc36f0d9"
+    },
+    {
+      "constant": "MOON",
+      "path": "moon",
+      "glyph": "IconMoon",
+      "sha256": "3bd27718fa8d80bd790d46b92f244805624a1b2af860d6ae6cb1c096c97f92a9"
+    },
+    {
+      "constant": "PAPERCLIP",
+      "path": "paperclip",
+      "glyph": "IconPaperclip1",
+      "sha256": "5a71b4ab14150b7040d89c38ec4240f3bef46027613f32a088ee2b9f7aa39298"
+    },
+    {
+      "constant": "PEN",
+      "path": "pen",
+      "glyph": "IconPencil",
+      "sha256": "920390744f27ae3f6658ac61d0ff4a70b7be65fe3ff68c59f13163be33cd0049"
+    },
+    {
+      "constant": "PIN",
+      "path": "pin",
+      "glyph": "IconPin",
+      "sha256": "593af553106da1b462f4e15043b4e4bf02f29b73006400cb3f6da1d7dbfb322f"
+    },
+    {
+      "constant": "PLUS",
+      "path": "plus",
+      "glyph": "IconPlusLarge",
+      "sha256": "32e4bfa6b86d8ec37503c7ad9353638a2cfc864cd3ecf0ff3b47fc6d7162e9b1"
+    },
+    {
+      "constant": "REFRESH",
+      "path": "refresh",
+      "glyph": "IconArrowRotateClockwise",
+      "sha256": "6a86ba65e68d8ae32dfef8662abd72ada955473389946d5957f694677ecc412b"
+    },
+    {
+      "constant": "RESTART",
+      "path": "restart",
+      "glyph": "IconReplay",
+      "sha256": "dc37e5039234def062b1a5e0c0caf0b452dfc4a3c7a29d5305851cae017c3555"
+    },
+    {
+      "constant": "SETTINGS",
+      "path": "settings",
+      "glyph": "IconSettingsGear2",
+      "sha256": "bc46bb8538c84908ba851eb4ff5423bf9d868a5cdad119ce06eb504bfaf88746"
+    },
+    {
+      "constant": "SIDEBAR_MINIMALISTIC_LEFT",
+      "path": "sidebar-minimalistic-left",
+      "glyph": "IconSidebarSimpleLeftWide",
+      "sha256": "37d5cb959e32f2c81ec13abcf94e46078ec40603033f4c0c88e9517141fcf3bb"
+    },
+    {
+      "constant": "STOP",
+      "path": "stop",
+      "glyph": "IconStop",
+      "sha256": "9d1884c54795100736bf1d80c6d735c4a7473f5ada43cb6d5a656120d551c586"
+    },
+    {
+      "constant": "SUN",
+      "path": "sun",
+      "glyph": "IconSun",
+      "sha256": "edc9f70f152b76a91db898916c07cc06ff7c82041051ad8a91f0dafef2301e17"
+    },
+    {
+      "constant": "TRASH_BIN_MINIMALISTIC",
+      "path": "trash-bin-minimalistic",
+      "glyph": "IconTrashCanSimple",
+      "sha256": "67c02b3dac08b1f4947deb38ef0fd24854e6c41de6c87b5ce585f8f4d9f6d5ed"
+    },
+    {
+      "constant": "WIDGET",
+      "path": "widget",
+      "glyph": "IconLayoutGrid2",
+      "sha256": "8740d1dc2ef3018b93c3a8fb955adce7d9a0c716112bdae3ce4df0584e670cca"
+    }
+  ],
+  "app_aliases": {
+    "ArrowLeft": "arrow-left",
+    "ArrowUp": "arrow-up",
+    "ArrowUpRight": "arrow-up-right",
+    "ClockCounterClockwise": "restart",
+    "FolderSimple": "folder",
+    "Plus": "plus",
+    "MagnifyingGlass": "magnifer",
+    "Compass": "global",
+    "Books": "folder-with-files",
+    "GearSix": "settings",
+    "SidebarSimple": "sidebar-minimalistic-left",
+    "GlobeHemisphereWest": "globe",
+    "Feather": "pen",
+    "GraduationCap": "document",
+    "Paperclip": "paperclip",
+    "X": "close",
+    "Check": "check",
+    "Copy": "copy",
+    "DownloadSimple": "arrow-down",
+    "Trash": "trash-bin-minimalistic",
+    "BookmarkSimple": "pin",
+    "Stop": "stop",
+    "CaretDown": "alt-arrow-down",
+    "ArrowClockwise": "refresh",
+    "Sun": "sun",
+    "Moon": "moon",
+    "Sparkle": "magic-stick-3",
+    "Lightning": "fast-tier",
+    "Code": "file-code",
+    "Plant": "global",
+    "Atom": "widget",
+    "ChatCircle": "chat-round-line"
+  }
+}
